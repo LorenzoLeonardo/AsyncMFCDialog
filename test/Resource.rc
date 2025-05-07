@@ -1,0 +1,9 @@
+#include "Resource.h"
+#include "afxwin.h"
+
+IDD_DIALOG1 DIALOGEX 0, 0, 276,
+    100 STYLE DS_SETFONT | WS_POPUP | WS_BORDER |
+        WS_SYSMENU CAPTION "Test Dialog" FONT 8,
+    "MS Sans Serif" BEGIN LTEXT "Label", IDC_STATIC, 50, 30, 100,
+    8 DEFPUSHBUTTON "OK", IDOK, 50, 50, 50, 14 PUSHBUTTON "Cancel", IDCANCEL,
+    150, 50, 50, 14 END
